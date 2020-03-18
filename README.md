@@ -57,6 +57,15 @@ The email addresses are all pattern-matched using Regex to determine which lines
 
 With lots of extraneous information in the file such as location and company name, the placement of the name relative to the other information is varied in each test case. 
 
+## Running with own data
+
+To run with your own data, run the command
+
+```
+java business_card_ocr.driver arg0
+```
+Here, arg0 is the filepath of the file/document that is to be parsed.
+
 ## Built With
 
 * [Java SE](oracle.com/java/javase-downloads.html)
