@@ -50,7 +50,12 @@ Note: the program takes in only one paramter.
 
 It should return the name, phone number, and email address of the person who's contents are located in the file.
 
-Each test handles phone numbers in a variety of formats such as (XXX)XXX XXXX, XXX-XXX-XXXX, and +X XXX XXX XXXX. The email addresses are all pattern-matched using Regex to determine which lines contain the email address. With lots of extraneous information in the file such as location and company name, the placement of the name relative to the other information is varied in each test case. 
+
+Each test handles phone numbers in a variety of formats such as (XXX)XXX XXXX, XXX-XXX-XXXX, and +X XXX XXX XXXX. 
+
+The email addresses are all pattern-matched using Regex to determine which lines contain the email address. 
+
+With lots of extraneous information in the file such as location and company name, the placement of the name relative to the other information is varied in each test case. 
 
 ## Built With
 
