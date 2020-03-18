@@ -38,19 +38,24 @@ javac business_card_ocr/*.java
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+The tests from the challenge are included as .txt files labelled test01.txt, test02.txt, and test03.txt. The contents are the same as the problem test cases.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run these cases, execute this command in the same directory as above
 
 ```
-Give an example
+java business_card_ocr.driver test01.txt
 ```
+
+Note: the program takes in only one paramter.
+
+It should return the name, phone number, and email address of the person who's contents are located in the file.
+
+Each test handles phone numbers in a variety of formats such as (XXX)XXX XXXX, XXX-XXX-XXXX, and +X XXX XXX XXXX. The email addresses are all pattern-matched using Regex to determine which lines contain the email address. With lots of extraneous information in the file such as location and company name, the placement of the name relative to the other information is varied in each test case. 
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Java SE](oracle.com/java/javase-downloads.html)
+* [Eclipse IDE](eclipse.org/ide/)
 
 ## Authors
 
