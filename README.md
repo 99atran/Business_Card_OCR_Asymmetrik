@@ -16,6 +16,8 @@ sudo apt install git
 sudo apt install default-jdk
 ```
 
+If your system requires additional installations along the process, please download the packages using sudo ...
+
 ### Installing
 
 The repository can be cloned with the following command
